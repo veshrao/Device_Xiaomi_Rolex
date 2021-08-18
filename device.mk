@@ -273,6 +273,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.qcom.rc \
     init.qcom.power.rc \
+    init.performance_level.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc \
     init.qcom.early_boot.sh \
