@@ -22,8 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common BananaDroid stuff
 $(call inherit-product, vendor/banana/config/common.mk)
- BANANA_BUILDTYPE := OFFICIAL
- TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# BananaDroid Flags
+BANANA_BUILDTYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
