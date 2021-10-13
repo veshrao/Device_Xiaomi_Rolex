@@ -502,9 +502,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/MiClassic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiClassic.ogg \
     $(LOCAL_PATH)/media/MiMix.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiMix.ogg
 
-# Google CameraGO
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
-
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
