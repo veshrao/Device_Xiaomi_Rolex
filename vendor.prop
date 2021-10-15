@@ -106,7 +106,6 @@ persist.dbg.wfc_avail_ovr=0
 
 # Media
 debug.stagefright.omx_default_rank=0
-debug.stagefright.ccodec=0
 vendor.vidc.disable.split.mode=1
 
 # NTP Server
