@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_rolex.mk
+    $(LOCAL_DIR)/palladium_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_rolex-user \
-    banana_rolex-userdebug \
-    banana_rolex-eng
+    palladium_rolex-user \
+    palladium_rolex-userdebug \
+    palladium_rolex-eng
