@@ -19,12 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common BananaDroid stuff
-$(call inherit-product, vendor/banana/config/common.mk)
+# Inherit some common ArcaneOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# BananaDroid Flags
-BANANA_BUILDTYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# ArcaneOS Flags
+ARCANE_DEVICE := Rova
+ARCANE_MAINTAINER := veshrao
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,7 +33,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4A
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := banana_rolex
+PRODUCT_NAME := aosp_rolex
 TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

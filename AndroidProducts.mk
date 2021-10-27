@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_rolex.mk
+    $(LOCAL_DIR)/aosp_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_rolex-user \
-    banana_rolex-userdebug \
-    banana_rolex-eng
+    aosp_rolex-user \
+    aosp_rolex-userdebug \
+    aosp_rolex-eng
